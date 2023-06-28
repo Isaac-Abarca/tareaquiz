@@ -12,4 +12,4 @@ git add -A
 git commit -m 'deploy'
 
 
-# git push -f git@ginthub.com:Isaac-Abarca/Semaforo_React.git main:gh-pages
+# git push -f git@ginthub.com:Isaac-Abarca/tareaquiz.git main:gh-pages
