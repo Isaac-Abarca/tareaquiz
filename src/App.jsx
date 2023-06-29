@@ -10,10 +10,10 @@ function App() {
       <Navbar />
       <div className="container">
           <Routes>
-            <Route exac path="/" element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/pricing" element={<Pricing />} />
-            <Route path="/about" element={<About />} />
+            <Route exac path="/tareaquiz" element={<Home />} />
+            <Route path="tareaquiz/home" element={<Home />} />
+            <Route path="tareaquiz/pricing" element={<Pricing />} />
+            <Route path="tareaquiz/about" element={<About />} />
           </Routes>
       </div>
     </>
