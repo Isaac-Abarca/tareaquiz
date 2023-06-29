@@ -1,7 +1,10 @@
 import "./about.css";
+import Navbar from "../components/Navbar";
 
 export default function About() {
   return (
+    <>
+    <Navbar />
     <div className="container">
       <div
         aria-label="Orange and tan hamster running in a metal wheel"
@@ -27,5 +30,6 @@ export default function About() {
       </div>
       <h1>About</h1>
     </div>
+    </>
   );
 }

@@ -1,7 +1,10 @@
+import Navbar from "../components/Navbar";
 import "./pricing.css";
 
 export default function Pricing() {
   return (
+    <>
+    <Navbar />
     <div className="container">
       <div className="boxes">
         <div className="box">
@@ -31,5 +34,6 @@ export default function Pricing() {
       </div>
       <h1>Pricing</h1>
     </div>
+    </>
   );
 }

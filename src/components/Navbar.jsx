@@ -4,12 +4,12 @@ import PropTypes from 'prop-types';
 export default function Navbar() {
   return (
     <nav className="nav">
-      <Link to="tareaquiz/" className="site-title">
+      <Link to="/" className="site-title">
         Home
       </Link>
       <ul>
-        <CustomLink to="tareaquiz/pricing">Pricing</CustomLink>
-        <CustomLink to="tareaquiz/about">About</CustomLink>
+        <CustomLink to="/pricing">Pricing</CustomLink>
+        <CustomLink to="/about">About</CustomLink>
       </ul>
     </nav>
   )
